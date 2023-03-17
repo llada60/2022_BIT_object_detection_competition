@@ -11,7 +11,7 @@ train.py是程序主入口。
 项目仍然依赖于mmcv和mmdet中的部分功能，故运行前需要安装mmcv-full和mmdet。
 
 
-文件夹结构：
+- 文件夹结构：
 ```commandline
 ├──Detection(本项目文件夹)
 ├──Prediction(存储测试集预测结果的csv文件)
@@ -19,7 +19,7 @@ train.py是程序主入口。
 ```
 
 
-数据文件夹结构：
+- 数据文件夹结构：
 ```commandline
 ├──annotations
 │   ├── original_train.json(助教提供的标注文件)
@@ -28,7 +28,12 @@ train.py是程序主入口。
 ├── train(存放训练集图片)
 ├── test(存放测试集图片)
 ```
-最后打榜结果：（网址：https://codalab.lisn.upsaclay.fr/competitions/5178?secret_key=9aa6e348-cc0c-4ec3-836c-7306fb158c5b）
+- 代码最终整理成 `final_version.ipynb`
+
+- 最后打榜结果：（网址：https://codalab.lisn.upsaclay.fr/competitions/5178?secret_key=9aa6e348-cc0c-4ec3-836c-7306fb158c5b）
 mAP：0.4070 (3)
 mAP@.5：0.5296
 <img width="1117" alt="image" src="https://user-images.githubusercontent.com/78467774/224551446-a9ae15aa-0fe2-454c-bbeb-b7b0b11aa504.png">
+
+- 附其他4次作业的汇总链接
+https://github.com/Rebabit/deep-learning-fundamentals
