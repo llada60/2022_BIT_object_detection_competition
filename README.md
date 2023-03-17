@@ -32,6 +32,7 @@ train.py是程序主入口。
 
 - 最后打榜结果：（网址：https://codalab.lisn.upsaclay.fr/competitions/5178?secret_key=9aa6e348-cc0c-4ec3-836c-7306fb158c5b）
 mAP：0.4070 (3)
+
 mAP@.5：0.5296
 <img width="1117" alt="image" src="https://user-images.githubusercontent.com/78467774/224551446-a9ae15aa-0fe2-454c-bbeb-b7b0b11aa504.png">
 
