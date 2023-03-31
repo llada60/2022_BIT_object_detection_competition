@@ -2,9 +2,11 @@
 
 mmdetection扒皮的结果，套用cascade_rcnn_r50_fpn的结构，resnet和fpn是手动实现的，其余直接搬运。
 
-anno_transform.py可以把训练集标注文件转化成coco格式，同时生成测试集标注；
-config.py包含大部分模型配置，注意调整data_root属性；
-train.py是程序主入口。
+\begin{itemize}
+\item `anno_transform.py`可以把训练集标注文件转化成coco格式，同时生成测试集标注；
+\item `config.py`包含大部分模型配置，注意调整data_root属性；
+\item `train.py`是程序主入口。
+\end{itemize}
 
 项目仍然依赖于mmcv和mmdet中的部分功能，故运行前需要安装mmcv-full和mmdet。
 
